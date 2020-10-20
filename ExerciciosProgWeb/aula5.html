@@ -1,0 +1,65 @@
+<!--Marcelo Bernardo Prudencio-->
+<!--Exercicio Formulario de incriçao em evento-->
+<html>
+    <header>
+        <meta charset="UTF-8">
+    </header>
+    
+    <body ><center> 
+        
+        <div>
+            <h1>Escola Virtual</h1>
+            <h1>Formulario de Pre-Matricula</h1> 
+            <p align=center><img src=formulario.png width=250 height=250></p><br>
+        </div>
+    
+        </form>
+        <div>
+
+            <table align=center border="0" >
+                <tr>
+                    <th width=200 height=15>Informaçaoes de Matricula</th>
+                </tr>
+
+                <tr>
+                    <td><label for="">Serie:</label><br></td>
+                    <td width=125><label for="">Turno:</label><br></td>
+                    <td><label for="">Atividades Extracuriculares:</label><br></td>
+                </tr>
+
+                <tr>
+                    <td >
+                        <select name=serie>
+                        <option value="">Selecione</option>
+                        <option value="pe">Pre-escola</option>
+                        <option value="f">Fundamental</option>
+                        <option value="m">Medio</option>
+                        <option value="i">Integrado</option>
+                        </select> 
+                        <br> <br> <br>
+                    </td>
+
+                    <td>
+                        <label for="manha"><input name=turno type=radio value=m id=manha>Manha</label><br>
+                        <label for="tarde"><input name=turno type=radio value=t id=tarde>Tarde</label><br>
+                        <label for="noite"><input name=turno type=radio value=n id=noite>Noite</label><br>
+                    </td>
+
+                    <td>
+                        <label for="info"><input type=checkbox name=atividadesextras value=sim id=info>Informatica</label><br>
+                        <label for="musica"><input type=checkbox name=atividadesextras value=sim id=musica>Musica</label><br>
+                        <label for="balet"><input type=checkbox name=atividadesextras value=sim id=balet>Balet</label>
+                    </td>
+                </tr>
+            
+            </table>
+        </div>     
+        <div>
+            <br>
+            <br><input type=submit value=enviar>
+            <input type=reset value=apagar>
+        </div>
+
+        </form>
+    </center></body>
+</html>
